@@ -1,0 +1,57 @@
+.team-list {
+  background: #f4f4fd;
+  padding: 120px 0;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-cart {
+  background: #fff;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-job {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.team-list .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.team-members {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+.team-cart {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-radius: 0 0 4px 4px;
+}
+.team-cart-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px;
+  gap: 8px;
+}
