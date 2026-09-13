@@ -31,7 +31,6 @@
 .features-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   max-width: 264px;
 }
 .special-icons {

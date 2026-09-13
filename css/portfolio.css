@@ -44,10 +44,10 @@
 .portfolio {
   padding: 120px 0;
 }
-.portfolio-grid > li {
+.portfolio-card {
   width: calc((100% - 48px) / 3);
 }
-.portfolio img {
+.portfolio-img {
   width: 100%;
   height: auto;
   display: block;
@@ -61,11 +61,24 @@
 }
 .portfolio-card {
   position: relative;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-thumd {
   position: relative;
   overflow: hidden;
+}
+.overlay {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overley-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 .portfolio-thumd .overley {
   position: absolute;
@@ -79,5 +92,4 @@
 }
 .portfolio-card:hover .overley {
   transform: translateY(0%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
